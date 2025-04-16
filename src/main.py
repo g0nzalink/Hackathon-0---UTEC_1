@@ -1,7 +1,7 @@
 def calculate(text: str) -> float:
     numeros = text.split(" ")
-    i = 0
 
+    i = 0
     while i < len(numeros):
         if numeros[i] == '**':
             resultado = exponenciar(numeros[i - 1], numeros[i + 1])
@@ -9,7 +9,7 @@ def calculate(text: str) -> float:
             i = 0
         else:
             i += 1
-
+    i = 0
     while i < len(numeros):
         if numeros[i] == '*':
             resultado = multiplicacion(numeros[i - 1], numeros[i + 1])
@@ -46,27 +46,37 @@ def calculate(text: str) -> float:
 
 
 def multiplicacion(a, b):
-    if a.isdigit() == False or b.isdigit() == False: return ValueError
-    return float(a) * float(b)
+    try:
+        return float(a) * float(b)
+    except ValueError:
+        return ValueError
 
 
 def suma(a, b):
-    if a.isdigit() == False or b.isdigit() == False: return ValueError
-    return float(a) + float(b)
+    try:
+        return float(a) + float(b)
+    except ValueError:
+        return ValueError
 
 
 def division(a, b):
-    if a.isdigit() == False or b.isdigit() == False: return ValueError
-    if b == 0: raise ZeroDivisionError
-    return float(a) / float(b)
+    try:
+        if b == 0: raise ZeroDivisionError
+        return float(a) / float(b)
+    except ValueError:
+        return ValueError
 
 
 def resta(a, b):
-    if a.isdigit() == False or b.isdigit() == False: return ValueError
-    return float(a) - float(b)
+    try:
+        return float(a) - float(b)
+    except ValueError:
+        return ValueError
 
 
 def exponenciar(a, b):
-    if a.isdigit() == False or b.isdigit() == False: return ValueError
-    if a == 0 and b == 0: raise ArithmeticError
-    return float(a) ** float(b)
+    try:
+        if a == 0 and b == 0: raise ArithmeticError
+        return float(a) ** float(b)
+    except ValueError:
+        return ValueError
