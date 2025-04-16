@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d991281-000f-4254-87cf-1dfce6d690bc" name="Changes" comment="Se cambio el nombre de la funcion exponenciacion por exponenciar para que pueda ser llamado correctamente.">
+    <list default="true" id="6d991281-000f-4254-87cf-1dfce6d690bc" name="Changes" comment="Se modifico el check de la variable float">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
@@ -177,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744776422994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se modifico el check de la variable float">
+      <option name="closed" value="true" />
+      <created>1744777310709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744777310709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +193,7 @@
     <MESSAGE value="Cambios de archivos de .idea" />
     <MESSAGE value="Se complementó y añadió correctamente la función división con lo modificado." />
     <MESSAGE value="Se cambio el nombre de la funcion exponenciacion por exponenciar para que pueda ser llamado correctamente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se cambio el nombre de la funcion exponenciacion por exponenciar para que pueda ser llamado correctamente." />
+    <MESSAGE value="Se modifico el check de la variable float" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifico el check de la variable float" />
   </component>
 </project>
