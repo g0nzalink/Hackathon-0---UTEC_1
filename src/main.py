@@ -13,7 +13,9 @@ def calculate(text:str) -> float:
             return resta(numeros[i-1], numeros[i+1])
         if numeros[i] == "/":
             return division(numeros[i-1], numeros[i+1])
-    
+
+def suma(a, b):
+    return float(a)+float(b)
 
 def multiplicacion(a, b ):
     return float(a)*float(b)
