@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d991281-000f-4254-87cf-1dfce6d690bc" name="Changes" comment="" />
+    <list default="true" id="6d991281-000f-4254-87cf-1dfce6d690bc" name="Changes" comment="Se complementó y añadió correctamente la función división con lo modificado.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Hackathon-0---UTEC_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "4-divison"
+    "git-widget-placeholder": "Merging 4-divison"
   }
 }]]></component>
   <component name="RunManager">
@@ -156,6 +165,21 @@
       <option name="presentableId" value="Default" />
       <updated>1744767307411</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cambios de archivos de .idea">
+      <option name="closed" value="true" />
+      <created>1744769185171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744769185171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' into 4-divison" />
+    <MESSAGE value="Cambios de archivos de .idea" />
+    <MESSAGE value="Se complementó y añadió correctamente la función división con lo modificado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se complementó y añadió correctamente la función división con lo modificado." />
   </component>
 </project>
